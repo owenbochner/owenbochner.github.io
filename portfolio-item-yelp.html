@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+        <link rel="stylesheet" href="all.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Owen Portfolio Website</title>
+    </head>
+    
+    <body>
+        <!-- header -->
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"> <a href="index.html" class="nav__link">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- intro -->
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                <strong>Food Fight</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Decide where to eat!</p>
+            <img class="intro__img" src="food.png" alt="portfolio pic">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>
+                To enhance my JavaScript, HTML, and CSS knowledge, I created John Conway's Game of Life with a group of friends.
+                The Game of Life operates on a set of mathematical rules; live, die, or multiply.
+                Depending on the conditions, various patterns can form throughout the course of the game. 
+            </p>
+            <img src="yelpSearch.png" alt="yelp search photo">
+            <center><a href="https://github.com/CaseyJ2000/FoodFight"><h4 style="color:chartreuse">Food Fight Website</h4></a></center>
+            <center><a href="http://food-fight-gsu-sprint2.herokuapp.com/login"><h4 style="color:chartreuse">Food Fight Github Repository</h4></a></center>
+            <p>
+                My program allows the user to interact with the webpage by allowing you to plant pixels on the black screen. 
+                You can also utilize a multitude of preset patterns that are built into the website. 
+                The Game of Life also allows you to increment each step one by one or by twenty three steps at once. 
+            </p>
+            <p>
+                The Rules for how The Game of Life operates as such:
+                <br/>
+                <br/>
+                For a space that is 'populated':
+                <br/>
+                    Each cell with one or no neighbors dies, as if by solitude.
+                    <br/>
+                    Each cell with four or more neighbors dies, as if by overpopulation.
+                    <br/>
+                    Each cell with two or three neighbors survives.
+                    <br/>
+                For a space that is 'empty' or 'unpopulated'
+                <br/>
+                    Each cell with three neighbors becomes populated.  
+                <br/>
+                <br/>
+                <br/>
+                
+            </p>
+        </div>
+
+        
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:owenbochner@protonmail.com" class="footer__link">owenbochner@protonmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a  href="https://github.com/owenbochner" class="social-list__link"> <i class="fab
+                        fa-github"></i></a>
+                </li>
+
+                <li class="social-list__item">
+                    <a href="https://www.linkedin.com/in/owen-bochner-6aba13208/" class="social-list__link"><i class="fab
+                            fa-linkedin-in"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>
