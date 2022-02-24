@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+        <link rel="stylesheet" href="all.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Owen Portfolio Website</title>
+    </head>
+    
+    <body>
+        <!-- header -->
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"> <a href="index.html" class="nav__link">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- intro -->
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                <strong>Spotify Randomizer</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">John Conway's Game of Life</p>
+            <img class="intro__img" src="macArt.png" alt="portfolio pic">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>
+                To gain experience with RESTful APIs, I chose to create a web application using Spotify's and Genius's resources. With Flask Login the user can create an account and
+                add their favorite Spotify artist's to their own designated database. The database was created with postgreSQL and is stored on Heroku. 
+                The Spotfiy API allows users to have access to artist's album artwork, snippets of music, song titles, and much more. 
+                This web application utilizes the Flask framework, along with Python in its' back-end. To create the user interface, I soley used HTML, CSS, and Jinja. Jinja allows
+                for Python like expressions while ensuring that templates are evaluated in a sandbox. The backend also uses the Genius API to allow the user
+                to view artist lyrics based on the current song playing from the website. 
+            </p>
+            <img src="spotifyFull.png" alt="spotify cover art">
+            <center><a href="https://github.com/csc4350-f21/project1-obochner1"><h4 style="color:chartreuse">Spotify Randomizer Github Repository</h4></a></center>
+            <center><a href="https://peaceful-ridge-48720.herokuapp.com"><h4 style="color:chartreuse">Spotify Randomizer Website</h4></a></center>
+            <p>
+                My program allows a user to create a user name and log in. The Web application then allows for a user
+                to save specific artist IDs from spotify to listen to a shuffled mix of various artists that they add to their specific database.
+                To use my website, create a username, log in, and then paste your favorite artist's artist Spotify URIs within the search box. 
+                The website will then allow you to listen to the artists you've added along with allowing you to view their Genius lyrics, album art, and song names.  
+            </p>
+            
+        </div>
+
+        
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto.owenbochner@protonmail.com" class="footer__link">owenbochner@protonmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a  href="https://github.com/owenbochner" class="social-list__link"> <i class="fab
+                        fa-github"></i></a>
+                </li>
+
+                <li class="social-list__item">
+                    <a href="https://www.linkedin.com/in/owen-bochner-6aba13208/" class="social-list__link"><i class="fab
+                            fa-linkedin-in"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>
